@@ -65,3 +65,12 @@ To https://git.heroku.com/alfabot13.git
 (venv) alex@alex-trade:~/PycharmProjects/bot001$ heroku ps:scale worker=1
 Scaling dynos... done, now running worker at 1:Free
 (venv) alex@alex-trade:~/PycharmProjects/bot001$
+
+
+(venv) alex@alex-trade:~/PycharmProjects/bot001$ heroku config
+=== alfabot13 Config Vars
+token: 1017263531:AAGQYHFBUIIaTHVjD37vW6C9un8P3JCx4N0
+(venv) alex@alex-trade:~/PycharmProjects/bot001$ heroku config:get token
+1017263531:AAGQYHFBUIIaTHVjD37vW6C9un8P3JCx4N0
+(venv) alex@alex-trade:~/PycharmProjects/bot001$
+
