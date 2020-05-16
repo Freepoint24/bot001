@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
 # Токен ненастоящий :) Подставьте свой
-token = token
+token = heroku config:get token
+
